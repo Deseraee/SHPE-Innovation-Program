@@ -1,4 +1,4 @@
-html_content = """
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +11,7 @@ html_content = """
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
+            background-color: #ffffff;
             color: #333;
         }
         header {
@@ -30,9 +30,9 @@ html_content = """
             padding: 20px 0;
         }
         #hero {
-            background: #ffc0cb; /* Changed to light pink */
-            color: #333; /* Changed text color for contrast */
-            padding: 120px 0; /* Increased padding for more vertical length */
+            background: #ffc0cb; 
+            color: #333; 
+            padding: 165px 0; /* Increased padding for more vertical length */
             text-align: center;
         }
         #hero h2 {
@@ -47,7 +47,7 @@ html_content = """
             display: inline-block;
             background: #ff69b4; /* Changed to a slightly darker pink for button */
             color: #fff;
-            padding: 10px 20px;
+            padding: 10px 25px;
             text-decoration: none;
             border-radius: 5px;
             font-size: 1.1em;
@@ -81,8 +81,8 @@ html_content = """
         }
         footer {
             text-align: center;
-            padding: 20px;
-            margin-top: 20px;
+            padding: 30px;
+            margin-top: 30px;
             color: #333; /* Changed text color for contrast */
             background-color: #fff; /* Changed to white */
         }
@@ -91,13 +91,13 @@ html_content = """
 <body>
     <header>
         <div class="container">
-            <h1>Testing</h1>
+            <h1>Header</h1>
         </div>
     </header>
 
     <section id="hero">
         <div class="container">
-            <h2>Hello! Welcome to my web page</h2>
+            <h2>Hello! Welcome</h2>
             <p>SHPE Innovation Program </p>
             <a href="#" class="btn">Get Started</a>
         </div>
@@ -112,6 +112,3 @@ html_content = """
     </footer>
 </body>
 </html>
-"""
-
-display(HTML(html_content))
